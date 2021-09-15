@@ -20,7 +20,6 @@ public class AccountTest {
         Account account = new Account();
         account.withdraw(5);
         account.withdraw(5);
-        account.withdraw(5);
-        assertThat(account.balance, Matchers.is(15));
+        assertThat(account.balance, Matchers.is(20));
     }
 }
